@@ -1,0 +1,81 @@
+
+@media (max-width: 500px){
+	p{
+		font size: 200px;
+		background-color: yellow;
+	}
+	body{
+		background-color:pink;
+	}
+}
+
+.intro_text{
+	width: 50%;
+	background-color: pink;
+}
+
+.fixed_photo{
+	position:fixed;
+	top: 0px;
+	right: 30px;
+}
+
+.absolute_photo{
+	position: absolute;
+	top: 100px;
+	right: 30px;
+	z-index: 10000;
+}
+
+
+.inner_photo{  
+	position: relative;
+	top: 0px;
+	right: 30px;
+}
+
+
+
+.right_photo{
+	float:right;
+}
+.clear_float {
+	clear: both;
+}
+
+
+p{
+	font-size:100px;
+	
+
+}
+
+.intro_text{
+	color:#FF2343;
+	font-size:10px;
+}
+
+
+/*this styles the second header in your container*/
+
+h3.intro_text{
+	color:#FF2343;
+	font-size:18px;
+
+}
+
+#footer_info{
+	background-color: #FF2F43;
+	width: 100px;
+	height: 100px;
+	margin: 100px;
+}
+
+nav{
+	text-align: center;
+	width:50%;
+	margin-left: auto;
+	margin-right: auto;
+
+
+}
