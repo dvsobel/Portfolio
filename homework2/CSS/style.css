@@ -4,20 +4,72 @@
 		font size: 200px;
 		background-color: yellow;
 	}
-	body{
-		background-color:pink;
-	}
+
+
+
+/*this is for the nav bar-------------------------------------------*/
+
+.nav ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ccc;
 }
 
-.intro_text{
-	width: 50%;
-	background-color: pink;
-}
 
-.fixed_photo{
+}
+.nav ul {
+  list-style: none;
+  background-color: white;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-size: 10px;
+  line-height: 40px;
+  height: 40px;
+  
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: gray;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  color:black;
+
+}
+ 
+
+@media screen and (min-width: 500px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+}
+ 
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+
+
+/*-------------------------------------------------------------------------------*/
+
+
+
+.cat_center{
 	position:fixed;
-	top: 0px;
-	right: 30px;
+	top: 350px;
+	right: 350px;
+	
 }
 
 .absolute_photo{
@@ -53,29 +105,27 @@ p{
 .intro_text{
 	color:#FF2343;
 	font-size:10px;
+
 }
+
+h1.h1{
+	text-align: center;
+	font-size: 45px;
+}
+
 
 
 /*this styles the second header in your container*/
 
+
 h3.intro_text{
-	color:#FF2343;
+	color: gray;
 	font-size:18px;
-
-}
-
-#footer_info{
-	background-color: #FF2F43;
-	width: 100px;
-	height: 100px;
-	margin: 100px;
-}
-
-nav{
 	text-align: center;
-	width:50%;
-	margin-left: auto;
-	margin-right: auto;
-
 
 }
+
+
+
+</body>
+</html>
