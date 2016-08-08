@@ -1,0 +1,55 @@
+#div1{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	/*transform: translate(30px);*/
+	/*transition: width 2s;
+	transition-timing-function: ease-out;	*/
+	/*transition: transform 2s;*/
+	animation-name: rotate_and_move;
+	animation-duration: 2s;
+	animation-iteration-count: infinate; 
+	animation-direction: reverse;
+
+	-webkit-animation:movetogether 4s infinate;
+	-moz-animation:movetogether 4s infinate;
+	-ms-animation:movetogether 4s infinate;
+	-o-animation: movetogether 4s infinate;
+}
+
+@keyframes rotate_and_move{
+
+/*begining*/
+	0%{
+		transform: rotate(90deg);
+		background-color: pink;
+
+	}
+
+/*middle*/
+	50%{
+		transform: rotate(-90deg);
+		width: 500px;
+	}
+
+/*end*/
+	100%{
+		transform: rotate(-90deg); 
+	}		
+
+}
+
+
+
+
+/*#div1:hover{*/
+	/*transform: scale(.2,.3);*/
+	/*transform: skewX(45deg);*/
+	/*transform: skewY(45deg);*/
+/*	transform: matrix(1, -0.3, 0, 1, 0, 0);
+}
+*/
+/*translate/rotate (90 deg), scale (1,1)*/
+
+
+/**/
