@@ -11,6 +11,8 @@
 	animation-iteration-count: infinate; 
 	animation-direction: reverse;
 
+
+/*need these below for all of the browsers to work*/
 	-webkit-animation:movetogether 4s infinate;
 	-moz-animation:movetogether 4s infinate;
 	-ms-animation:movetogether 4s infinate;
